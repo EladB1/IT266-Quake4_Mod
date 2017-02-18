@@ -270,7 +270,7 @@ entityDef projectile_grenade
 
 	"fx_fly"				"effects/weapons/grenadelauncher/trail.fx"
 	"fx_fly_mp"				"effects/weapons/grenadelauncher/trail_mp.fx"
-	"fx_detonate"				"effects/weapons/lightninggun/impact.fx" //"effects/weapons/grenadelauncher/detonate.fx"
+	"fx_detonate"				"effects/weapons/lightninggun/spire.fx" //"effects/weapons/lightninggun/impact.fx" //"effects/weapons/grenadelauncher/detonate.fx"
 	"fx_detonate_mp"			"effects/weapons/rocketlauncher/detonate_mp.fx"
 	"fx_impact"				"effects/weapons/lightninggun/impact.fx" //"effects/weapons/grenadelauncher/impact.fx"
 	"fx_impact_mp"				"effects/weapons/rocketlauncher/impact_mp.fx"

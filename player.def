@@ -800,9 +800,9 @@ entityDef player_marine
 
 	// these used to be hard coded values from id
 	// doom 3 SP values, fatal 65, hard 45, soft 30, no fall 7
-	"fatal_fall_delta"					"65"
-	"hard_fall_delta"					"45"
-	"soft_fall_delta"					"30"
+	//"fatal_fall_delta"					"65"
+	//"hard_fall_delta"					"45"
+	//"soft_fall_delta"					"30"
 	"no_fall_delta"						"7" 
 	
 	"def_playerView"					"playerView_marine"
