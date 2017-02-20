@@ -276,9 +276,9 @@ entityDef damage_dmg_fly
 
 entityDef damage_dmg_splash 
 {
-	"damage"					"50"
-	"radius"					"150"
-	"knockback"					"100"
+	"damage"					"25" //"50"
+	"radius"					"50" //"150"
+	"knockback"					"1000" //"100"
 	"push"						"20000"
 	"gib"						"0"
 
@@ -308,7 +308,7 @@ entityDef projectile_dmg
 	"def_radius_damage"			"damage_dmg_fly"
 	"damageRate"				".05"
 																											
-	"speed"					"250"
+	"speed"					"500" //"250"
 	
 	"delay_splash"				".45"
 	

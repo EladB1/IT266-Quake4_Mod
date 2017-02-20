@@ -676,7 +676,7 @@ entityDef player_marine
 	"weapon8_cycle"						"1"
 
 	"def_weapon9"						"weapon_dmg"
-	"weapon9_best"						"0"
+	"weapon9_best"						"1" //"0"
 	"weapon9_cycle"						"1"
 
 	"def_weapon10"						"weapon_napalmgun"
@@ -730,27 +730,27 @@ entityDef player_marine
 
 	// ammo
 	"ammo_railgun"						"0"
-	"ammo_machinegun"					"-1" //"0"
+	"ammo_machinegun"					"0"
 	"ammo_nailgun"						"0"
 	"ammo_blaster"						"-1"
 	"ammo_shotgun"						"0"
 	"ammo_hyperblaster"					"0"
 	"ammo_rocketlauncher"					"0"
 	"ammo_grenadelauncher"					"-1"
-	"ammo_lightninggun"					"-1" //"0"
+	"ammo_lightninggun"					"0"
 	"ammo_none"						"-1"
 
 	"max_ammo_blaster"					"-1"
 	"max_ammo_railgun"					"50"
-	"max_ammo_machinegun"				"-1" //"300"
+	"max_ammo_machinegun"				"300"
 	"max_ammo_nailgun"					"300"
 	"max_ammo_shotgun"					"50"
 	"max_ammo_hyperblaster"					"400"
 	"max_ammo_napalmgun"					"40"
 	"max_ammo_rocketlauncher"				"40"
 	"max_ammo_grenadelauncher"				"-1"
-	"max_ammo_lightninggun"					"-1" // "400"
-	"max_ammo_dmg"						"25"
+	"max_ammo_lightninggun"					"400"
+	"max_ammo_dmg"						 "25"
 	"max_ammo_none"						"-1"
 
 	// inventory items
@@ -803,7 +803,7 @@ entityDef player_marine
 	//"fatal_fall_delta"					"65"
 	//"hard_fall_delta"					"45"
 	//"soft_fall_delta"					"30"
-	"no_fall_delta"						"7" 
+	//"no_fall_delta"						"7" 
 	
 	"def_playerView"					"playerView_marine"
 }
