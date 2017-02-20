@@ -344,7 +344,7 @@ entityDef hitscan_bullet
 {
 	"range"						"40000"
 
-	"fx_impact"				"effects/weapons/machinegun/impact_default.fx"
+	"fx_impact"				"effects/weapons/grenadelauncher/detonate.fx" // "effects/weapons/machinegun/impact_default.fx"
 	"fx_impact_water"			"effects/ambient/splash_smll.fx"
 	"fx_impact_concrete"			"effects/weapons/machinegun/impact_concrete.fx"
 	"fx_impact_rock"			"effects/weapons/machinegun/impact_concrete.fx"
@@ -360,7 +360,7 @@ entityDef hitscan_bullet
 	"fx_impact_bpglass_mp"			"effects/weapons/machinegun/impact_default_mp.fx"
 	"fx_impact_electronics_mp"		"effects/weapons/machinegun/impact_default_mp.fx"
 	
-	"def_damage"				"damage_machinegun"
+	"def_damage"			    "damage_machinegun"
 	"def_damage_flesh"			"damage_machinegun_flesh"
 		
 	"push"						"7500"

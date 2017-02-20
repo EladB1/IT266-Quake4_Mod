@@ -676,7 +676,7 @@ entityDef player_marine
 	"weapon8_cycle"						"1"
 
 	"def_weapon9"						"weapon_dmg"
-	"weapon9_best"						"1" //"0"
+	"weapon9_best"						"0"
 	"weapon9_cycle"						"1"
 
 	"def_weapon10"						"weapon_napalmgun"
