@@ -730,7 +730,7 @@ entityDef player_marine
 
 	// ammo
 	"ammo_railgun"						"0"
-	"ammo_machinegun"					"0"
+	"ammo_machinegun"					"50" //"0"
 	"ammo_nailgun"						"0"
 	"ammo_blaster"						"-1"
 	"ammo_shotgun"						"0"

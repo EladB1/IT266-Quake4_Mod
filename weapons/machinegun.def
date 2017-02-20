@@ -99,10 +99,10 @@ entityDef weapon_machinegun
 	"def_hitscan"				"hitscan_bullet"
 	"def_althitscan"			"hitscan_zoomed_bullet"
 	
-	"ammoType"					"ammo_grenadelauncher" //"ammo_machinegun"
-	//"ammoRequired"				"1"
-	//"clipSize"					"40"
-	//"lowAmmo"					"10"
+	"ammoType"					"ammo_machinegun"
+	"ammoRequired"				"1"
+	"clipSize"					"40"
+	"lowAmmo"					"10"
 	"gui"						"guis/weapons/machinegun_ammo.gui"
 	"gui2"						"guis/weapons/machinegun_inview_scope.gui"
 
@@ -363,7 +363,7 @@ entityDef hitscan_bullet
 	"def_damage"			    "damage_machinegun"
 	"def_damage_flesh"			"damage_machinegun_flesh"
 		
-	"push"						"7500"
+	"push"						"10000" //"7500"
 }
 
 entityDef hitscan_zoomed_bullet
